@@ -69,7 +69,9 @@ periodics:
       - /osde2e
       env:
       - name: NUM_WORKER_NODES
-        value: "6"
+        value: "3"
+      - name: OCM_COMPUTE_MACHINE_TYPE
+        value: c5.2xlarge
       - name: POLLING_TIMEOUT
         value: "7400"
       - name: ADDON_IDS
